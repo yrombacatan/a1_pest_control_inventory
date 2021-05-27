@@ -9,24 +9,24 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
     <!-- Tempusdominus Bbootstrap 4 -->
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('adminlte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/fontawesome-free/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('adminlte/plugins/fontawesome-free/css/all.min.css')}}">
 
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- Theme style -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/css/AdminLTE.min.css"> -->
-    <link rel="stylesheet" href="{{asset('adminlte/dist/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('adminlte/dist/css/adminlte.min.css')}}">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/css/skins/_all-skins.min.css"> -->
 
     <!-- iCheck -->
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
 
 </head>
-<body class="hold-transition login-page" style="background-image: url({{asset('adminlte/dist/img/login-bg-14.jpg')}});">
+<body class="hold-transition login-page" style="background-image: url({{secure_asset('adminlte/dist/img/login-bg-14.jpg')}});">
 <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-size: cover; background-repeat: no-repeat; background-position: center; background: linear-gradient(to bottom,rgba(0,0,0,.45) 0,rgba(0,0,0,.9));">
 </div>
 <div class="login-box">
@@ -101,10 +101,10 @@
 
 
 <!-- jQuery -->
-<script src="{{asset('adminlte/plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{secure_asset('adminlte/plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap 4 -->
-<script src="{{asset('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{secure_asset('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{asset('adminlte/dist/js/adminlte.min.js')}}"></script>
+<script src="{{secure_asset('adminlte/dist/js/adminlte.min.js')}}"></script>
 </body>
 </html>
